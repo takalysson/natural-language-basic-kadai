@@ -1,30 +1,4 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyM4RcyOK0D/ApFhNzXzrSxQ"
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "source": [],
-      "metadata": {
-        "id": "eFyc4ceRNtwj"
-      }
-    },
-    {
-      "cell_type": "code",
-      "source": [
+
         "\"\"\"\n",
         "上辺：10cm  upper_base\n",
         "下辺：20cm  lower_base\n",
@@ -39,24 +13,6 @@
         "area = (upper_base+lower_base) * heigth / 2\n",
         "# 結果を「◯◯cm²」として出力\n",
         "print(f\"{area}cm2\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "lGwSeH1KdEn_",
-        "outputId": "73b82890-7767-4684-816a-b12b99e79c86"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
+
             "75.0cm2\n"
-          ]
-        }
-      ]
-    }
-  ]
-}
+      
