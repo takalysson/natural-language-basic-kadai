@@ -1,0 +1,7 @@
+def calcuration_total_price(price):
+    tax = price * 0.1
+    total = price + tax
+    print(f"{total}円")
+
+calcuration_total_price(1000)
+
