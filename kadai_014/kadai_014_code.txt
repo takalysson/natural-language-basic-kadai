@@ -1,0 +1,11 @@
+#グローバルスコープの定義
+price1 = 100
+price2 = 200
+tax = 1.1
+
+#ローカルスコープにある関数
+def total():
+    return price1 + price2 
+
+#金額の算出
+print(total() * tax)
